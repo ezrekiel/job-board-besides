@@ -62,6 +62,7 @@ searchInput.addEventListener('keypress', async function(event) {
 	handleSearchResults(searchInput.value);
 });
 
+//test
 window.addEventListener('DOMContentLoaded', async () => {
 	if (!authService.isAuthenticated()) {
 		window.location.href = '/besides/besides-front/views/signin/signin.html';
