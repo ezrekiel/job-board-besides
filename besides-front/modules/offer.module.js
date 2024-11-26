@@ -11,6 +11,7 @@ const signoutButton = document.getElementById('signout');
 const createCompany = document.getElementById('header-create-company');
 const createOffers = document.getElementById('header-create-offers');
 const usernameButton = document.getElementById('header-username');
+const offersButton = document.getElementById('header-offers');
 
 function translateToRelativeTime(postedAt) {
 	const now = new Date();
@@ -145,3 +146,4 @@ signoutButton.addEventListener('click', function() {
 createCompany.addEventListener('click', () => window.location.href = '/besides/besides-front/views/companies/companies.html');
 usernameButton.addEventListener('click', () => window.location.href = '/besides/besides-front/views/profile/profile.html');
 createOffers.addEventListener('click', () => window.location.href = '/besides/besides-front/views/publish/publish.html');
+offersButton.addEventListener('click', () => window.location.href = '/besides/besides-front/views/offers/offers.html');
