@@ -1,4 +1,4 @@
-**Chillguys**
+**Besides**
 
 **Table des Matières**
 
@@ -12,27 +12,19 @@
 
     [Fonctionnement de l'outil]
     
-        Le projet Chillguys est une application web qui propose un outil de discussion ayant plusieurs utilités, que ce soit pour permettre a deux utilisateurs de discuter entre eux, mais aussi de discuter avec un groupe d'utilisateurs.
-
-    [Détails sur l'inscription]
-
-        Les utilisateurs peuvent se servir de l'application web avec ou sans inscription.
-        Les utilisateurs inscrits auront accès à la totalité de l'application tandis que les utilisateurs qui ne sont pas inscrits ont seulement la possibilité de communiquer avec des personnes mais pas de rejoindre des groupes.        
+        Le projet Besides est une application web qui propose un outil de recherche d'emplois. Les utilisateurs inscrivent leur profil et peuvent consulter les offres et peuvent aussi enregistrer leur entreprise et poster des offres.      
 
 **Caractéristiques**
 
-    Les utilisateurs sont de deux types en fonction de leur statut d'inscrit ou non.
-    Les inscrits peuvent parler a d'autres utilisateurs et peuvent également créer ou rejoindre des groupes d'utilisateurs.
-    Les non inscrits peuvent seulement parler a d'autres utilisateurs.
+    Les utilisateurs sont de deux types, soit des candidats sans postes, soit des membres d'une entreprises, ces derniers ont aussi la possibilité de créer des offres.
 
 **Technologies**
 
-    Les langages utilisés sont Javascript Typescript et SQL.
+    Les langages utilisés sont Javascript et SQL.
     La partie back-end du projet est développée avec Express et NodeJS.
     Base de données mariaDB.
-    Gestion de websockets via SocketIO.
     Utilisation de JWT.
-    La partie front-end du projet est développée avec React (changement probable pour angular).
+    La partie front-end du projet est développée en Javascript.
 
 **Installation**
 
